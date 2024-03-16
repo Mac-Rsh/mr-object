@@ -12,9 +12,7 @@
     {                                                                          \
         .name = (_name),                                                       \
         .list = {.next = &(_object).list, .prev = &(_object).list},            \
-        .clist                                                                 \
-            = {.next = &(_object).clist,                                       \
-               .prev = &(_object).clist }                                      \
+        .clist = {.next = &(_object).clist, .prev = &(_object).clist},         \
     }
 
 /* Root object */
